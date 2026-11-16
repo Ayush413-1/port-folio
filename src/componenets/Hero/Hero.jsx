@@ -1,12 +1,13 @@
 import React from 'react'
 import'./hero.css'
 import resume from "../../resume/Ayush CV.pdf"
+import profilePhoto from "../../assets/Passport Photo 2 new.jpeg";
 
 const Hero = () => {
   return (
    
     <div id='home' className="hero">
-        <img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f642.svg" alt="" />
+        <img className='profilephoto' src={profilePhoto} alt="" />
         <h1><span>I'm Ayush Bhongade,</span> Java Developer</h1>
         <p>I build clean, modern interfaces and enjoy crafting smooth user experiences.</p>
         <div className="hero-action">

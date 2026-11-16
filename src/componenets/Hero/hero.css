@@ -78,6 +78,10 @@
     border-color: #B415FF;
 }
 
+.profilephoto{
+    border-radius: 50%;
+}
+
 @media (max-width: 768px){
     .hero {
         padding: 24px 18px 48px;

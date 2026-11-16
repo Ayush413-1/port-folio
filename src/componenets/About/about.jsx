@@ -1,6 +1,7 @@
 
 import React from "react";
 import "./about.css";
+import profilePhoto from "../../assets/Passport Photo 2 new.jpeg";
 
 const About = () => {
   const skills = [
@@ -21,8 +22,8 @@ const About = () => {
       <div className="about-sections">
 
         <div className="about-left">
-          <img
-            src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f642.svg"
+          <img className="profilephoto"
+            src={profilePhoto}
             alt="Smiling illustration"
           />
         </div>
